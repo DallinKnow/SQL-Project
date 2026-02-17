@@ -16,6 +16,11 @@ How do annual members and casual riders use Cyclistic bikes differently?
 
 <br>
 
-## 🟢 Start
+## 🧹 Start/Cleaning
+First, aftrer importing the tables for 2025 trips, I started with merging the files.
+
+### Initial Data Audit
+
+
 
 
