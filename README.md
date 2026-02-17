@@ -7,7 +7,7 @@ A case study using SQL from start to finish.
 <br>
 <br>
   
-### ---
+#
  
 
 # Cyclistic Case Study
