@@ -5,6 +5,9 @@ A case study using SQL from start to finish.
 1. [Data Projects](https://github.com/DallinKnow/Data-Projects)
 
 
+
+
+
 # Cyclistic Case Study
 (A case study on a fictional bike rental company named Cyclistic.)
 
