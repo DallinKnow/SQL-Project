@@ -24,6 +24,7 @@ First, aftrer importing the tables for 2025 trips, I started with merging the fi
 ### Initial Data Audit
 ##### I used this query to find any null values that I didn't want to keep
 <img width="361" height="248" alt="image" src="https://github.com/user-attachments/assets/c3edd218-e56b-42ed-bdd8-5c5181f9d423" />
+<br>
 ##### Query result ⤵️
 <img width="1950" height="529" alt="image" src="https://github.com/user-attachments/assets/297d961c-ee21-499b-9d53-36244f8410ab" />
 
