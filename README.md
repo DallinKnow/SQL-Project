@@ -32,7 +32,19 @@ First, aftrer importing the tables for 2025 trips, I started with merging the fi
 <br>
 <br>
 
-#### I then found that there were false starts that didn't have an end time
+#### I then found that there were false starts that didn't have an end lat or lng but did hav a start lng and lat.
+
+<br>
+
+#### Instead of Deleting the nulls this first time.  I created a new proxy duplicate, avoiding adding nulls from end_lat and lng.
+#### I did this for simplicity, to keep all data in one place and make a place where I can delete values without deleting source raw data.
+
+<br>
+
+<img width="930" height="211" alt="image" src="https://github.com/user-attachments/assets/7b19bbb2-edeb-4f52-8cf7-512e8906e3b4" />
+
+
+
 
 
 
