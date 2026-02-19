@@ -43,8 +43,20 @@ First, aftrer importing the tables for 2025 trips, I started with merging the fi
 
 <img width="930" height="211" alt="image" src="https://github.com/user-attachments/assets/7b19bbb2-edeb-4f52-8cf7-512e8906e3b4" />
 
+<br>
 
+#### Checked nulls again
+<img width="889" height="433" alt="image" src="https://github.com/user-attachments/assets/29bc2ba2-f903-4272-83aa-f697e676d4d4" />
 
+<br>
+
+#### Query result ⤵️
+<img width="1667" height="82" alt="image" src="https://github.com/user-attachments/assets/f86997a2-bc32-4e14-9f0e-66bfa7debe51" />
+
+<br>
+
+#### ❌ Null values ❌ found in start and end station ID and Names.  
+Could be bikes start and end just not at stations
 
 
 
