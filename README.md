@@ -56,7 +56,9 @@ I did this for simplicity, to keep all data in one place and make a place where 
 <br>
 
 #### ❌ Null values ❌ found in start and end station ID and Names.  
-Could be bikes that start and end just not at stations or start at a station and end outside of one, but rides are still not false starts.
+Could be bikes that start and end just not at stations. Could start at a station and end outside of one, but rides are still not false starts.
+
+
 
 
 
