@@ -37,7 +37,7 @@ First, aftrer importing the tables for 2025 trips, I started with merging the fi
 <br>
 
 #### Instead of Deleting the nulls this first time.  I created a new proxy duplicate, avoiding adding nulls from end_lat and lng.
-#### I did this for simplicity, to keep all data in one place and make a place where I can delete values without deleting source raw data.
+I did this for simplicity, to keep all data in one place and make a place where I can delete values without deleting source raw data.
 
 <br>
 
@@ -56,7 +56,11 @@ First, aftrer importing the tables for 2025 trips, I started with merging the fi
 <br>
 
 #### ❌ Null values ❌ found in start and end station ID and Names.  
-Could be bikes start and end just not at stations
+Could be bikes that start and end just not at stations or start at a station and end outside of one, but rides are still not false starts.
+
+
+
+
 
 
 
