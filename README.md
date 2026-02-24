@@ -15,6 +15,7 @@ A case study using SQL from start to finish.
 
 ### ❓ Business Question:
 How do annual members and casual riders use Cyclistic bikes differently?
+How can we turn casual riders into annualy paying mambers?
 
 <br>
 
@@ -58,6 +59,28 @@ I did this for simplicity, to keep all data in one place and make a place where 
 #### ❌ Null values ❌ found in start and end station ID and Names.  
 Could be bikes that start and end just not at stations. Could start at a station and end outside of one, but rides are still not false starts.
 
+<br>
+<br>
+
+#### Created a view 🔭 with new columns ✔️
+
+<img width="1224" height="932" alt="image" src="https://github.com/user-attachments/assets/c3801b7c-b04a-4034-90e6-fc58ab6cd216" />
+<br>
+<img width="685" height="125" alt="image" src="https://github.com/user-attachments/assets/33666727-7f02-400f-aa81-98136ba5652f" />
+
+
+<br>
+
+#### Query result ⤵️
+<img width="2425" height="775" alt="image" src="https://github.com/user-attachments/assets/d7b957f3-a772-4272-8dcc-792232014f5c" />
+
+<br>
+
+#### Why the columns ❓  Why the "Where" statement
+I decided to make a view for ease of use.
+I wanted to make the columns for the diferent times and durations to realy find patterns between members and casual riders use of cyclistic bikes.
+I wanted to filter out any outlire bike rides.  Bike rides are typically not more than 24 hours without accidental time imput or a stollen/lost bike.
+Also negative times are a sign of false starts or bad time imputs and will skew the data.
 
 
 
