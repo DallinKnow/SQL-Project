@@ -62,7 +62,7 @@ Could be bikes that start and end just not at stations. Could start at a station
 <br>
 <br>
 
-#### Created a view 🔭 with new columns ✔️
+### Created a view 🔭 with new columns ✔️
 
 <img width="1224" height="932" alt="image" src="https://github.com/user-attachments/assets/c3801b7c-b04a-4034-90e6-fc58ab6cd216" />
 <br>
@@ -85,8 +85,17 @@ Also negative times are a sign of false starts or bad time imputs and will skew 
 
 <br>
 
-#### 🛠 Formatting Fix
+### 🛠 Formatting Fix
+Checked for inconsistant spacing and created new view with trimmed spacing, consistent format, and got rid of any duplicates.
 <img width="897" height="196" alt="image" src="https://github.com/user-attachments/assets/c3ca9815-eeef-43cc-8cf2-ea5a4a6daa6e" />
+
+<br>
+
+#### Query result ⤵️
+<img width="849" height="82" alt="image" src="https://github.com/user-attachments/assets/15f19e60-3d1f-491b-b6d5-a42d66af91c8" />
+
+
+
 
 
 
