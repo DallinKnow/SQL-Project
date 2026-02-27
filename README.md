@@ -22,13 +22,13 @@ How can we turn casual riders into annualy paying mambers?
 ## 🧹 Start/Cleaning
 First, aftrer importing the tables for 2025 trips, I started with merging the files.
 
-### Initial Data Audit
-#### I used this query to find any null values that I didn't want to keep
+### Initial Data Audit 
+I used this query to find any null values that I didn't want to keep
 <img width="1224" height="932" alt="image" src="https://github.com/user-attachments/assets/c3edd218-e56b-42ed-bdd8-5c5181f9d423" />
 <br>
 
 #### Query result ⤵️
-##### Note: The columns with no Null values were colapsed more to fit the photo
+Note: The columns with no Null values were colapsed more to fit the photo
 <img width="1950" height="529" alt="image" src="https://github.com/user-attachments/assets/297d961c-ee21-499b-9d53-36244f8410ab" />
 <br>
 <br>
@@ -46,7 +46,7 @@ I did this for simplicity, to keep all data in one place and make a place where 
 
 <br>
 
-#### Checked nulls again
+### Checked nulls again
 <img width="889" height="433" alt="image" src="https://github.com/user-attachments/assets/29bc2ba2-f903-4272-83aa-f697e676d4d4" />
 
 <br>
@@ -56,7 +56,7 @@ I did this for simplicity, to keep all data in one place and make a place where 
 
 <br>
 
-#### ❌ Null values ❌ found in start and end station ID and Names.  
+### ❌ Null values ❌ found in start and end station ID and Names.  
 Could be bikes that start and end just not at stations. Could start at a station and end outside of one, but rides are still not false starts.
 
 <br>
@@ -76,7 +76,7 @@ Could be bikes that start and end just not at stations. Could start at a station
 
 <br>
 
-#### ❓ Why the columns? Why the "Where" statement?
+### ❓ Why the columns? Why the "Where" statement?
 I decided to make a view for ease of use.
 I wanted to make the columns for the diferent times and durations to realy find patterns between members and casual riders use of cyclistic bikes.
 I wanted to filter out any outlire bike rides.  Bike rides are typically not more than 24 hours without accidental time imput or a stollen/lost bike.
@@ -93,6 +93,25 @@ Checked for inconsistant spacing and created new view with trimmed spacing, cons
 
 #### Query result ⤵️
 <img width="849" height="82" alt="image" src="https://github.com/user-attachments/assets/15f19e60-3d1f-491b-b6d5-a42d66af91c8" />
+
+<br>
+<br>
+
+### 🫧 🧼 Final Clean Table 🫧
+I made the station names look professional with capitals to start each word in the name alond with trimming all needed stations.
+<img width="1009" height="591" alt="image" src="https://github.com/user-attachments/assets/0d6b63d2-129d-4979-a949-2511ddc8922e" />
+
+<br>
+
+#### Table Result ⤵️
+<img width="2378" height="575" alt="image" src="https://github.com/user-attachments/assets/1e72b857-e067-4956-a551-1343413e628c" />
+
+<br>
+<br>
+
+### ➕➖ Agregate ✖️➗
+
+
 
 
 
