@@ -76,11 +76,17 @@ Could be bikes that start and end just not at stations. Could start at a station
 
 <br>
 
-#### Why the columns ❓  Why the "Where" statement
+#### ❓ Why the columns? Why the "Where" statement?
 I decided to make a view for ease of use.
 I wanted to make the columns for the diferent times and durations to realy find patterns between members and casual riders use of cyclistic bikes.
 I wanted to filter out any outlire bike rides.  Bike rides are typically not more than 24 hours without accidental time imput or a stollen/lost bike.
 Also negative times are a sign of false starts or bad time imputs and will skew the data.
+
+
+<br>
+
+#### 🛠 Formatting Fix
+<img width="897" height="196" alt="image" src="https://github.com/user-attachments/assets/c3ca9815-eeef-43cc-8cf2-ea5a4a6daa6e" />
 
 
 
