@@ -110,6 +110,17 @@ I made the station names look professional with capitals to start each word in t
 <br>
 
 ### ➕➖ Agregate ✖️➗
+wanted to find the max, min, and average for each member and casual on each day of the week
+<img width="797" height="396" alt="image" src="https://github.com/user-attachments/assets/2ecfe553-9885-4caf-95a7-0d7eb55aaae1" />
+<br>
+#### Query Results ⤵️
+<img width="1428" height="607" alt="image" src="https://github.com/user-attachments/assets/07b08c1a-e531-4af3-bffa-aecf74b980b2" />
+
+---
+
+# The End
+<br>
+This has been the cleaning and prepping of the data using SQL to then push to Microsoft Power BI for visuals
 
 
 
