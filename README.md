@@ -116,9 +116,28 @@ wanted to find the max, min, and average for each member and casual on each day 
 #### Query Results ⤵️
 <img width="1428" height="607" alt="image" src="https://github.com/user-attachments/assets/07b08c1a-e531-4af3-bffa-aecf74b980b2" />
 
+<br>
+<br>
+
+## Visualize 📊
+Lets now visualize and find the differences between member and casual riders
+
+<br>
+
+### Ride Count Comparison
+1.) Here we see there are more members than Casual riders
+2.) 
+<img width="2050" height="1094" alt="image" src="https://github.com/user-attachments/assets/bd6ec9d6-cc96-45fa-8872-1431f8c84308" />
+
+
+<br>
+
+### Average Ride Duration Comparison
+<img width="2035" height="1089" alt="image" src="https://github.com/user-attachments/assets/830be039-1d91-4945-b330-d65148e9db54" />
+
 ---
 
-# The End
+# Conclusion
 <br>
 This has been the cleaning and prepping of the data using SQL to then push to Microsoft Power BI for visuals
 
